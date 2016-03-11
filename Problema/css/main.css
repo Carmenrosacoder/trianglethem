@@ -1,0 +1,51 @@
+#home-slider {
+  background-image: url(../images/home/slider-bg.png);
+  background-position: left;
+  background-repeat: repeat-x;
+  height: 275px; }
+
+.slide-img {
+  position: relative;
+  padding-top: 274px; }
+
+.slide-text {
+  font-weight: bold;
+  line-height: 10px;
+  float: left; }
+
+.slider-cycle {
+  position: absolute;
+  right: 490px;
+  bottom: 0px; }
+
+.slider-house {
+  position: absolute;
+  right: 0px;
+  bottom: 0px; }
+
+.slider-cloud2 {
+  position: absolute;
+  top: -120px;
+  right: 380px; }
+
+.slider-cloud1 {
+  position: absolute;
+  top: -70px;
+  right: 70px; }
+
+.slider-cloud3 {
+  position: absolute;
+  top: -70px;
+  right: 70px; }
+
+.slider-circle1 {
+  position: absolute;
+  top: 35px;
+  right: 430px; }
+
+.slider-circle2 {
+  position: absolute;
+  top: 15px;
+  right: 420px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+#home-slider{
+
+    background-image: url(../images/home/slider-bg.png);
+    background-position:left;
+    background-repeat: repeat-x;
+    height: 275px;
+
+}
+.slide-img{
+    position: relative;
+    padding-top: 274px;
+}
+
+
+.slide-text{
+font-weight: bold;
+line-height: 10px;
+float: left;
+}
+@mixin imgabsolute($right: 0px,$bottom: 0px) {
+position: absolute;
+right: $right;
+bottom: $bottom;
+}
+.slider-cycle {
+@include imgabsolute(490px, 0px);
+}
+ .slider-house{
+@include imgabsolute(0px, 0px);
+}
+@mixin imgabsolut($top: 0px,$right: 0px) {
+position: absolute;
+top: $top;
+right: $right;
+}
+.slider-cloud2{
+    @include imgabsolut(-120px, 380px);
+}
+.slider-cloud1{
+    @include imgabsolut(-70px ,70px);
+}
+.slider-cloud3{
+    @include imgabsolut(-70px ,70px);
+}
+.slider-circle1{
+    @include imgabsolut(35px ,430px);
+}
+.slider-circle2{
+    @include imgabsolut(15px ,420px);
+}
