@@ -1,1 +1,45 @@
+#home-slider
+  background-image: url(../images/home/slider-bg.png)
+  background-position: left
+  background-repeat: repeat-x
+  height: 275px
 
+.slide-img
+  position: relative
+  padding-top: 274px
+
+.slide-text
+  font-weight: bold
+  line-height: 10px
+  float: left
+
+=imgabsolute($right: 0px, $bottom: 0px)
+  position: absolute
+  right: $right
+  bottom: $bottom
+
+.slider-cycle
+  +imgabsolute(490px, 0px)
+
+.slider-house
+  +imgabsolute(0px, 0px)
+
+=imgabsolut($top: 0px, $right: 0px)
+  position: absolute
+  top: $top
+  right: $right
+
+.slider-cloud2
+  +imgabsolut(-120px, 380px)
+
+.slider-cloud1
+  +imgabsolut(-70px, 70px)
+
+.slider-cloud3
+  +imgabsolut(-70px, 70px)
+
+.slider-circle1
+  +imgabsolut(35px, 430px)
+
+.slider-circle2
+  +imgabsolut(15px, 420px)
