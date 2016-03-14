@@ -1,6 +1,6 @@
 #header {
   margin-bottom: 30px;
-  padding: 30px 0 120px 0; }
+  padding: 30px 0 120px; }
   #header .navbar-inverse .container {
     position: relative; }
 
@@ -64,7 +64,7 @@
       position: absolute;
       font-size: 56px;
       top: -13px;
-      color: #dab074; }
+      color: #D89B4E; }
     #header .navbar-nav li ul.sub-menu li .active .fa-angle-right {
       left: -3px; }
     #header .navbar-nav li ul.sub-menu li .active .fa-angle-left {
@@ -84,7 +84,7 @@ body {
   color: #000; }
 
 #home-slider {
-  background-image: url(../images/home/slider-bg.png);
+  background-image: url("../images/home/slider-bg.png");
   background-position: left;
   background-repeat: repeat-x;
   height: 275px; }
@@ -144,19 +144,25 @@ body {
 
 /*action*/
 #action {
-  background-image: url(../images/home/tour-bg.png);
+  background-image: url("../images/home/tour-bg.png");
   background-size: cover;
-  height: 100px; }
+  height: 150px; }
   #action .col-sm-5 {
     top: 0;
     height: 100%;
     right: 0; }
+  #action .btn-common {
+    margin-top: 40px; }
   #action .btn-common:hover,
   #action .btn-common:focus {
     outline: none;
     background: none;
     box-shadow: none;
     color: #d29948; }
+  #action .tour-button img {
+    position: absolute;
+    top: 0px;
+    left: 0px; }
 
 a {
   color: #a5732a;
@@ -168,7 +174,7 @@ a {
 a:hover {
   outline: none;
   text-decoration: none;
-  color: #dab074; }
+  color: #D89B4E; }
 
 a:focus {
   outline: none;
@@ -177,11 +183,18 @@ a:focus {
 ul {
   list-style: none; }
 
-h1, h2, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-h1, h2 {
+h1,
+h2 {
   color: #686868; }
 
 h2 {
@@ -199,7 +212,7 @@ h3 {
 .btn-common {
   font-size: 14px;
   color: #797979;
-  border: 1px solid #dbb075;
+  border: 1px solid #D89B4E;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   padding: 10px 25px; }
@@ -208,7 +221,8 @@ h3 {
   text-align: right; }
 
 .inline {
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 40px; }
 
 .padding {
   padding: 65px 0; }
@@ -227,5 +241,31 @@ h3 {
 
 .margin-bottom {
   margin-bottom: 35px; }
+
+.service-3 {
+  margin-top: 45px; }
+
+.form-control {
+  border: 1px solid #D89B4E; }
+
+blockquote {
+  border-left: none; }
+
+.btn-submit {
+  background-color: #D89B4E;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 0px 0px #a5732a; }
+
+.copyright-text {
+  padding-top: 100px; }
+
+.img_footer {
+  width: 100%;
+  margin-top: -252px; }
+
+.color_page {
+  color: #d29948; }
 
 /*# sourceMappingURL=main.css.map */

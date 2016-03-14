@@ -1,5 +1,118 @@
+#header
+  margin-bottom: 30px
+  padding: 30px 0 120px
+
+  .navbar-inverse
+    .container
+      position: relative
+
+.social-icons ul li
+  padding: 0 10px
+
+  &:last-child
+    padding-right: 0
+
+  & a
+    font-size: 18px
+    color: #d3d3d3
+    padding: 0
+
+    &:hover,
+    &:focus
+      color: #dbb075
+      background: none
+
+#header
+  & .navbar
+    background: #fff
+    border: 0
+    margin-bottom: 0
+
+  & .navbar-toggle
+    margin-top: 20px
+
+  & .navbar-brand
+    padding: 0
+    margin-left: 0
+
+    & h1,
+    & h2
+      padding: 0
+      margin: 0
+
+  & .navbar-nav
+    & .navbar-right > li
+      &:last-child
+        margin-right: 20px
+
+      & a
+        color: #000
+        font-size: 12px
+        padding: 20px
+        text-transform: uppercase
+        font-weight: 300
+
+  & .navbar-inverse
+    & .navbar-nav li
+      & a:hover
+        color: #d29948
+
+      & .active > a,
+      & .active > a:focus
+        background-color: inherit
+        border: 0
+        color: #d29948
+
+  & .navbar-nav li ul.sub-menu
+    display: none
+    list-style: none
+    padding: 0
+    margin: 0
+
+    & li a
+      color: #818285
+      padding: 5px 0
+      font-size: 13px
+      display: block
+      text-transform: capitalize
+
+    & li:hover,
+    & li:focus
+      background: #fef7ee
+      color: #d29948
+
+    & li .active
+      background: #fef7ee
+      color: #d29948
+      position: relative
+
+      & i
+        position: absolute
+        font-size: 56px
+        top: -13px
+        color: #dab074
+
+      & .fa-angle-right
+        left: -3px
+
+      & .fa-angle-left
+        right: -3px
+
+.navbar-inverse .navbar-nav > .open > a
+  background-color: inherit
+  border: 0
+  color: #d29948
+
+body
+  background: #fff
+  font-family: 'Lato', sans-serif
+  font-weight: 300
+  font-size: 14px
+  line-height: 22px
+  color: #000
+
 #home-slider
-  background-image: url(../images/home/slider-bg.png)
+  background-image: url("../images/home/slider-bg.png")
   background-position: left
   background-repeat: repeat-x
   height: 275px
@@ -43,3 +156,105 @@
 
 .slider-circle2
   +imgabsolut(15px, 420px)
+
+.slider-sun
+  +imgabsolut(-140px, 170px)
+
+/*services
+.single-service
+  padding: 20px
+
+/*action
+#action
+  background-image: url("../images/home/tour-bg.png")
+  background-size: cover
+  height: 100px
+
+  & .col-sm-5
+    top: 0
+    height: 100%
+    right: 0
+
+  .btn-common:hover,
+  .btn-common:focus
+    outline: none
+    background: none
+    box-shadow: none
+    color: #d29948
+
+a
+  color: #a5732a
+  -webkit-transition: 300ms
+  -moz-transition: 300ms
+  -o-transition: 300ms
+  transition: 300ms
+
+a:hover
+  outline: none
+  text-decoration: none
+  color: #dab074
+
+a:focus
+  outline: none
+  outline-offset: 0
+
+ul
+  list-style: none
+
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-family: 'Lato', sans-serif
+  font-weight: 300
+
+h1,
+h2
+  color: #686868
+
+h2
+  font-size: 24px
+
+h3
+  font-size: 18px
+
+.overflow
+  overflow: hidden
+
+.uppercase
+  text-transform: uppercase
+
+.btn-common
+  font-size: 14px
+  color: #797979
+  border: 1px solid #dbb075
+  font-family: 'Open Sans', sans-serif
+  font-weight: 300
+  padding: 10px 25px
+
+.align-right
+  text-align: right
+
+.inline
+  display: inline-block
+
+.padding
+  padding: 65px 0
+
+.padding-bottom
+  padding-bottom: 65px
+
+.padding-top
+  padding-top: 90px
+
+.padding-right
+  padding-right: 80px
+
+.padding-left
+  padding-left: 80px
+
+.margin-bottom
+  margin-bottom: 35px
